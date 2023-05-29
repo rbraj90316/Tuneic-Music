@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Music Player</title>
+    <link rel="stylesheet" type="text/css" href="Tuneic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Hind:wght@300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <nav id="navbar">
+            <div id="logo"><img
+                    src="https://www.onlinelogomaker.com/blog/wp-content/uploads/2017/06/music-logo-design.jpg"
+                    alt="MUsic Logo">
+                <h4>Tuneic</h4>
+            </div>
+            <ul>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#playlist">Playlist</a></li>
+                </ul>
+        </nav>
+        <div class="container">
+            <div id="playlist">
+                <h2>Playlist</h2>
+                <input type="text" id="searchInput" placeholder="Search...">
+                <ul id="songList">
+                         </ul>
+                         <span id="currentSongName"></span>
+
+
+            </div>
+        </div>
+        <div id="bottom">
+            <div id="player">
+                <audio id="audio" controls></audio>
+                <div id="controls">
+                    <button id="playBtn">Play</button>
+                    <button id="pauseBtn">Pause</button>
+                    <button id="nextBtn">Next</button>
+                </div>
+                <button id="getLyricsBtn">Get Lyrics</button>
+            </div>
+
+
+            <p id="lyricsText"></p>
+
+        </div>
+    </div>
+
+    <script src="Tuneic.js"></script>
+</body>
+
+</html>
