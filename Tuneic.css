@@ -74,6 +74,21 @@ ul li a:hover{
   background-color: black;
   opacity: .9;
 }
+@media screen and (max-width:500px) {
+  .container {
+    flex: 1;
+    display: flex;
+    width: 300px;
+  }
+  #playlist {
+    flex: 1;
+    padding: 20px;
+    background-color: black;
+    opacity: 0.9;
+    width: 200px;
+  }
+}
+
 
 #playlist h2 {
   margin-top: 0;
